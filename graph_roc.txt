@@ -1,0 +1,18 @@
+digraph G {
+    
+"y_true", "scores", "threshold" [color=blue];
+
+"scores", "threshold" -> "y_pred";
+
+"TPR", "FPR" [color=green];
+
+"y_true", "y_pred"->"TP", "TN", "FP", "FN" -> "TPR", "FPR", "Accuracy";
+
+"TP", "FP" -> "Precision";
+
+"TN", "FP" -> "Specificity";
+
+"TPR" -> "Recall" [dir=both];
+
+"scores", "y_true" -> "ROC" -> "AUC";
+}
