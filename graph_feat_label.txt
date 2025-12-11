@@ -1,0 +1,18 @@
+digraph G {
+    
+"X", "Y" [color=blue];
+
+"Y" -> "Y=0", "Y=1";
+
+"X", "Y=0" -> "X0";
+
+"X", "Y=1" -> "X1";
+
+"X0", "X1" -> "Jeff(X0,X1)" ;
+
+"Jeff(X0,X1)" -> "IV(X,Y)"[dir=both];
+
+"Entropy" -> "KL Divergence" -> "Jeff Divergence", "Cross Entropy";
+
+"Entropy" -> "Cross Entropy";
+}
