@@ -1,12 +1,12 @@
 # Information Theory
 ## Information Entropy
-$$\mathtt{H}(X) = -\sum \Pr[X=x_i] \log \Pr[X=x_i]$$
+$$\mathtt{H}(X) = -\sum \Pr[X=e] \log \Pr[X=e]$$
 Measures how "surprising" or "uncertain" a situation is.
 
 
 
 ## Relative Entropy (KL Divergence)
-$$\mathtt{KL}(Y, X)=\sum \Pr[Y=x]\log \frac{\Pr[Y=x]}{\Pr[X=x]}$$
+$$\mathtt{KL}(Y, X)=\sum \Pr[Y=e]\log \frac{\Pr[Y=e]}{\Pr[X=e]}$$
 Measures how badly one probability distribution approximates another. 
 
 Note that the KL divergence is **asymmetric**: $\mathtt{KL}(Y,X)$ is generally not equal to $\mathtt{KL}(X,Y)$.
@@ -36,7 +36,7 @@ Cross entropy measures the average number of bits needed to represent events fro
 
 
 ## Conditional Entropy
-$$\mathtt{H}(Y|X) = \sum \Pr[X=x_i] \mathtt{H}(Y|X=x_i)$$
+$$\mathtt{H}(Y|X) = \sum \Pr[X=x] \mathtt{H}(Y|X=x)$$
 The remaining uncertainty after you know something.
 
 # Feature & Label
@@ -54,10 +54,10 @@ Let $X$ denote features and $Y\in \{Good, Bad\}$ denote labels, and let $b$ and 
 
 ## WoE (Weight of Evidence)
 
-$$\mathtt{WoE}_i=\log \frac{g_i/g}{b_i/b} = \log \frac{\Pr[X=x_i|Y=Good]}{\Pr[X=x_i|Y=Bad]}$$
+$$\mathtt{WoE}_i=\log \frac{g_i\mathbin{/}g}{b_i\mathbin{/}b} = \log \frac{\Pr[X=x_i|Y=Good]}{\Pr[X=x_i|Y=Bad]}$$
 
 ## IV (Information Value)
-$$\mathtt{IV}(X,Y) = \sum \mathtt{IV}_i = \sum (g_i/g-b_i/b)\mathtt{WoE}_i = \sum (g_i/g-b_i/b)\ln\frac{g_i/g}{b_i/b}$$
+$$\mathtt{IV}(X,Y) = \sum \mathtt{IV}_i = \sum (g_i\mathbin{/}g-b_i\mathbin{/}b)\mathtt{WoE}_i = \sum (g_i\mathbin{/}g-b_i\mathbin{/}b)\ln\frac{g_i\mathbin{/}g}{b_i\mathbin{/}b}$$
 
 
 ### Deriving IV from Jeffreys divergence.
@@ -65,7 +65,7 @@ $$\mathtt{IV}(X,Y)=\mathtt{J}(X_1, X_0)\ln2$$
 
 **IV is essentially Jeffreys divergence** between the distribution of feature $X$ for **bad cases** ($X_0$, where $Y=0$) and its distribution for **good cases** ($X_1$, where $Y=1$). 
 
->*$X_0=(X|Y=0)$ and $X_1=(X|Y=1)$, then we have $\Pr[X_0 = x_i] = \frac{b_i}{b}$ and $\Pr[X_1 = x_i] = \frac{g_i}{g}$.*
+>$X_0=(X|Y=0)$ and $X_1=(X|Y=1)$, then we have $\Pr[X_0 = x_i] = \frac{b_i}{b}$ and $\Pr[X_1 = x_i] = \frac{g_i}{g}$.
 >
 > $\mathtt{KL}(X_1\| X_0) = \sum \Pr[X_1=x_i] \log \frac{\Pr[X_1=x_i]}{\Pr[X_0=x_i]}=\sum g_i/g\log \frac{g_i/g}{b_i/b}$
 >
