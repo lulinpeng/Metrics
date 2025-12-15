@@ -1,12 +1,14 @@
 # Information Theory
 ## Information Entropy
 $$\mathtt{H}(X) = -\sum \Pr[X=e] \log \Pr[X=e]$$
+
 Measures how "surprising" or "uncertain" a situation is.
 
 
 
 ## Relative Entropy (KL Divergence)
 $$\mathtt{KL}(Y, X)=\sum \Pr[Y=e]\log \frac{\Pr[Y=e]}{\Pr[X=e]}$$
+
 Measures how badly one probability distribution approximates another. 
 
 Note that the KL divergence is **asymmetric**: $\mathtt{KL}(Y,X)$ is generally not equal to $\mathtt{KL}(X,Y)$.
@@ -14,6 +16,7 @@ Note that the KL divergence is **asymmetric**: $\mathtt{KL}(Y,X)$ is generally n
 ## Jerrreys Divergence
 
 $$\mathtt{J}(Y,X) = \mathtt{KL}(Y, X) + \mathtt{KL}(X,Y)$$
+
 Symmetric version of KL divergence, like a "friendly average" of both directions.
 
 ## Cross Entropy
