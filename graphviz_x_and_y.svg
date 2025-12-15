@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="465pt" height="332pt" viewBox="0.00 0.00 465.00 332.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 328)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-328 460.85,-328 460.85,4 -4,4"/>
+<!-- X -->
+<g id="node1" class="node">
+<title>X</title>
+<ellipse fill="none" stroke="blue" cx="101.29" cy="-234" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="101.29" y="-229.8" font-family="Times,serif" font-size="14.00">X</text>
+</g>
+<!-- X0 -->
+<g id="node5" class="node">
+<title>X0</title>
+<ellipse fill="none" stroke="black" cx="36.29" cy="-162" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="36.29" y="-157.8" font-family="Times,serif" font-size="14.00">X0</text>
+</g>
+<!-- X&#45;&gt;X0 -->
+<g id="edge3" class="edge">
+<title>X-&gt;X0</title>
+<path fill="none" stroke="black" d="M87.5,-218.15C78.88,-208.87 67.6,-196.73 57.82,-186.19"/>
+<polygon fill="black" stroke="black" points="60.45,-183.88 51.08,-178.93 55.32,-188.64 60.45,-183.88"/>
+</g>
+<!-- X1 -->
+<g id="node6" class="node">
+<title>X1</title>
+<ellipse fill="none" stroke="black" cx="108.29" cy="-162" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="108.29" y="-157.8" font-family="Times,serif" font-size="14.00">X1</text>
+</g>
+<!-- X&#45;&gt;X1 -->
+<g id="edge5" class="edge">
+<title>X-&gt;X1</title>
+<path fill="none" stroke="black" d="M103.02,-215.7C103.74,-208.41 104.61,-199.73 105.43,-191.54"/>
+<polygon fill="black" stroke="black" points="108.91,-191.91 106.42,-181.61 101.95,-191.21 108.91,-191.91"/>
+</g>
+<!-- Y -->
+<g id="node2" class="node">
+<title>Y</title>
+<ellipse fill="none" stroke="blue" cx="101.29" cy="-306" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="101.29" y="-301.8" font-family="Times,serif" font-size="14.00">Y</text>
+</g>
+<!-- Y=0 -->
+<g id="node3" class="node">
+<title>Y=0</title>
+<ellipse fill="none" stroke="black" cx="28.29" cy="-234" rx="28.29" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="28.29" y="-229.8" font-family="Times,serif" font-size="14.00">Y=0</text>
+</g>
+<!-- Y&#45;&gt;Y=0 -->
+<g id="edge1" class="edge">
+<title>Y-&gt;Y=0</title>
+<path fill="none" stroke="black" d="M86.51,-290.83C76.55,-281.28 63.2,-268.48 51.79,-257.54"/>
+<polygon fill="black" stroke="black" points="54.27,-255.07 44.63,-250.67 49.43,-260.12 54.27,-255.07"/>
+</g>
+<!-- Y=1 -->
+<g id="node4" class="node">
+<title>Y=1</title>
+<ellipse fill="none" stroke="black" cx="174.29" cy="-234" rx="28.29" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="174.29" y="-229.8" font-family="Times,serif" font-size="14.00">Y=1</text>
+</g>
+<!-- Y&#45;&gt;Y=1 -->
+<g id="edge2" class="edge">
+<title>Y-&gt;Y=1</title>
+<path fill="none" stroke="black" d="M116.06,-290.83C126.02,-281.28 139.37,-268.48 150.78,-257.54"/>
+<polygon fill="black" stroke="black" points="153.14,-260.12 157.94,-250.67 148.3,-255.07 153.14,-260.12"/>
+</g>
+<!-- Y=0&#45;&gt;X0 -->
+<g id="edge4" class="edge">
+<title>Y=0-&gt;X0</title>
+<path fill="none" stroke="black" d="M30.26,-215.7C31.1,-208.41 32.09,-199.73 33.02,-191.54"/>
+<polygon fill="black" stroke="black" points="36.5,-191.94 34.16,-181.61 29.55,-191.15 36.5,-191.94"/>
+</g>
+<!-- Y=1&#45;&gt;X1 -->
+<g id="edge6" class="edge">
+<title>Y=1-&gt;X1</title>
+<path fill="none" stroke="black" d="M160.29,-218.15C151.54,-208.87 140.08,-196.73 130.15,-186.19"/>
+<polygon fill="black" stroke="black" points="132.71,-183.8 123.3,-178.93 127.61,-188.6 132.71,-183.8"/>
+</g>
+<!-- Jeff(X0,X1) -->
+<g id="node7" class="node">
+<title>Jeff(X0,X1)</title>
+<ellipse fill="none" stroke="black" cx="72.29" cy="-90" rx="57.96" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="72.29" y="-85.8" font-family="Times,serif" font-size="14.00">Jeff(X0,X1)</text>
+</g>
+<!-- X0&#45;&gt;Jeff(X0,X1) -->
+<g id="edge7" class="edge">
+<title>X0-&gt;Jeff(X0,X1)</title>
+<path fill="none" stroke="black" d="M44.63,-144.76C48.7,-136.87 53.69,-127.16 58.31,-118.18"/>
+<polygon fill="black" stroke="black" points="61.33,-119.96 62.79,-109.47 55.1,-116.76 61.33,-119.96"/>
+</g>
+<!-- X1&#45;&gt;Jeff(X0,X1) -->
+<g id="edge8" class="edge">
+<title>X1-&gt;Jeff(X0,X1)</title>
+<path fill="none" stroke="black" d="M99.94,-144.76C95.87,-136.87 90.88,-127.16 86.26,-118.18"/>
+<polygon fill="black" stroke="black" points="89.47,-116.76 81.78,-109.47 83.24,-119.96 89.47,-116.76"/>
+</g>
+<!-- IV(X,Y) -->
+<g id="node8" class="node">
+<title>IV(X,Y)</title>
+<ellipse fill="none" stroke="black" cx="72.29" cy="-18" rx="44.02" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="72.29" y="-13.8" font-family="Times,serif" font-size="14.00">IV(X,Y)</text>
+</g>
+<!-- Jeff(X0,X1)&#45;&gt;IV(X,Y) -->
+<g id="edge9" class="edge">
+<title>Jeff(X0,X1)-&gt;IV(X,Y)</title>
+<path fill="none" stroke="black" d="M72.29,-60.24C72.29,-56.01 72.29,-51.66 72.29,-47.44"/>
+<polygon fill="black" stroke="black" points="68.79,-60.18 72.29,-70.18 75.79,-60.18 68.79,-60.18"/>
+<polygon fill="black" stroke="black" points="75.79,-47.62 72.29,-37.62 68.79,-47.62 75.79,-47.62"/>
+</g>
+<!-- Entropy -->
+<g id="node9" class="node">
+<title>Entropy</title>
+<ellipse fill="none" stroke="black" cx="340.29" cy="-306" rx="42.15" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="340.29" y="-301.8" font-family="Times,serif" font-size="14.00">Entropy</text>
+</g>
+<!-- KL Divergence -->
+<g id="node10" class="node">
+<title>KL Divergence</title>
+<ellipse fill="none" stroke="black" cx="291.29" cy="-234" rx="70.83" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="291.29" y="-229.8" font-family="Times,serif" font-size="14.00">KL Divergence</text>
+</g>
+<!-- Entropy&#45;&gt;KL Divergence -->
+<g id="edge10" class="edge">
+<title>Entropy-&gt;KL Divergence</title>
+<path fill="none" stroke="black" d="M328.67,-288.41C323.02,-280.34 316.09,-270.43 309.73,-261.35"/>
+<polygon fill="black" stroke="black" points="312.62,-259.38 304.02,-253.2 306.89,-263.4 312.62,-259.38"/>
+</g>
+<!-- Cross Entropy -->
+<g id="node12" class="node">
+<title>Cross Entropy</title>
+<ellipse fill="none" stroke="black" cx="390.29" cy="-162" rx="66.56" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="390.29" y="-157.8" font-family="Times,serif" font-size="14.00">Cross Entropy</text>
+</g>
+<!-- Entropy&#45;&gt;Cross Entropy -->
+<g id="edge13" class="edge">
+<title>Entropy-&gt;Cross Entropy</title>
+<path fill="none" stroke="black" d="M351.78,-288.51C358.36,-278.39 366.28,-264.92 371.29,-252 378.85,-232.49 383.67,-209.35 386.56,-191.55"/>
+<polygon fill="black" stroke="black" points="390.02,-192.1 388.04,-181.69 383.1,-191.06 390.02,-192.1"/>
+</g>
+<!-- Jeff Divergence -->
+<g id="node11" class="node">
+<title>Jeff Divergence</title>
+<ellipse fill="none" stroke="black" cx="233.29" cy="-162" rx="72.43" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="233.29" y="-157.8" font-family="Times,serif" font-size="14.00">Jeff Divergence</text>
+</g>
+<!-- KL Divergence&#45;&gt;Jeff Divergence -->
+<g id="edge11" class="edge">
+<title>KL Divergence-&gt;Jeff Divergence</title>
+<path fill="none" stroke="black" d="M277.24,-216.05C270.41,-207.8 262.04,-197.7 254.44,-188.54"/>
+<polygon fill="black" stroke="black" points="257.24,-186.42 248.16,-180.95 251.85,-190.89 257.24,-186.42"/>
+</g>
+<!-- KL Divergence&#45;&gt;Cross Entropy -->
+<g id="edge12" class="edge">
+<title>KL Divergence-&gt;Cross Entropy</title>
+<path fill="none" stroke="black" d="M314.5,-216.59C327.41,-207.46 343.67,-195.96 357.83,-185.95"/>
+<polygon fill="black" stroke="black" points="359.84,-188.81 365.98,-180.18 355.8,-183.1 359.84,-188.81"/>
+</g>
+</g>
+</svg>

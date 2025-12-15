@@ -55,6 +55,8 @@ Let $X$ denote features and $Y\in \{Good, Bad\}$ denote labels, and let $b$ and 
 | 3  | Good | | |   3   |   Good  | | | ~~3~~ | ~~Good~~ |
 | 2  | Bad  | | | ~~2~~ | ~~Bad~~ | | |   2   |    Bad   |
 
+<center><img src="graphviz_x_and_y.svg" ></center>
+
 ## WoE (Weight of Evidence)
 
 $$\mathtt{WoE}_i=\log \frac{g_i\mathbin{/}g}{b_i\mathbin{/}b} = \log \frac{\Pr[X=x_i|Y=Good]}{\Pr[X=x_i|Y=Bad]}$$
@@ -89,6 +91,9 @@ $\mathtt{IV}(X,Y)$, i.e., $\mathtt{J}(X_0,X_1)$, quantifies **how well feature $
 | Bad  | 0.15 | |         Good           |         Bad             |         Bad             |
 | Good | 0.77 | |         Good           |         Good            |         Bad             |
 | Bad  | 0.18 | |         Good           |         Bad             |         Bad             |
+
+<center><img src="graphviz_y_and_y_hat.svg" ></center>
+
 ## Confusion Matrix
 
 ### TP/TN/FP/FN

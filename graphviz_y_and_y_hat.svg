@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="570pt" height="332pt" viewBox="0.00 0.00 570.00 332.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 328)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-328 566.4,-328 566.4,4 -4,4"/>
+<!-- y_true -->
+<g id="node1" class="node">
+<title>y_true</title>
+<ellipse fill="none" stroke="blue" cx="403.98" cy="-234" rx="35.71" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="403.98" y="-229.8" font-family="Times,serif" font-size="14.00">y_true</text>
+</g>
+<!-- TP -->
+<g id="node7" class="node">
+<title>TP</title>
+<ellipse fill="none" stroke="black" cx="285.98" cy="-162" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="285.98" y="-157.8" font-family="Times,serif" font-size="14.00">TP</text>
+</g>
+<!-- y_true&#45;&gt;TP -->
+<g id="edge3" class="edge">
+<title>y_true-&gt;TP</title>
+<path fill="none" stroke="black" d="M381.5,-219.67C362.74,-208.54 335.85,-192.59 315.38,-180.44"/>
+<polygon fill="black" stroke="black" points="317.31,-177.52 306.93,-175.43 313.74,-183.54 317.31,-177.52"/>
+</g>
+<!-- TN -->
+<g id="node8" class="node">
+<title>TN</title>
+<ellipse fill="none" stroke="black" cx="357.98" cy="-162" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="357.98" y="-157.8" font-family="Times,serif" font-size="14.00">TN</text>
+</g>
+<!-- y_true&#45;&gt;TN -->
+<g id="edge4" class="edge">
+<title>y_true-&gt;TN</title>
+<path fill="none" stroke="black" d="M393.08,-216.41C387.61,-208.1 380.88,-197.85 374.77,-188.56"/>
+<polygon fill="black" stroke="black" points="377.73,-186.69 369.31,-180.25 371.88,-190.53 377.73,-186.69"/>
+</g>
+<!-- FP -->
+<g id="node9" class="node">
+<title>FP</title>
+<ellipse fill="none" stroke="black" cx="213.98" cy="-162" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="213.98" y="-157.8" font-family="Times,serif" font-size="14.00">FP</text>
+</g>
+<!-- y_true&#45;&gt;FP -->
+<g id="edge5" class="edge">
+<title>y_true-&gt;FP</title>
+<path fill="none" stroke="black" d="M376.44,-222.39C370.68,-220.23 364.65,-218.01 358.98,-216 310.88,-198.98 297.35,-198.93 249.98,-180 248.45,-179.39 246.9,-178.75 245.34,-178.08"/>
+<polygon fill="black" stroke="black" points="247.05,-175.01 236.49,-174.12 244.19,-181.4 247.05,-175.01"/>
+</g>
+<!-- FN -->
+<g id="node10" class="node">
+<title>FN</title>
+<ellipse fill="none" stroke="black" cx="429.98" cy="-162" rx="27" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="429.98" y="-157.8" font-family="Times,serif" font-size="14.00">FN</text>
+</g>
+<!-- y_true&#45;&gt;FN -->
+<g id="edge6" class="edge">
+<title>y_true-&gt;FN</title>
+<path fill="none" stroke="black" d="M410.27,-216.05C413.11,-208.4 416.54,-199.16 419.74,-190.56"/>
+<polygon fill="black" stroke="black" points="423.01,-191.8 423.21,-181.21 416.45,-189.36 423.01,-191.8"/>
+</g>
+<!-- ROC -->
+<g id="node15" class="node">
+<title>ROC</title>
+<ellipse fill="none" stroke="black" cx="505.98" cy="-162" rx="30.89" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="505.98" y="-157.8" font-family="Times,serif" font-size="14.00">ROC</text>
+</g>
+<!-- y_true&#45;&gt;ROC -->
+<g id="edge29" class="edge">
+<title>y_true-&gt;ROC</title>
+<path fill="none" stroke="black" d="M424.62,-218.83C439.7,-208.48 460.36,-194.31 477.08,-182.83"/>
+<polygon fill="black" stroke="black" points="478.89,-185.83 485.16,-177.29 474.93,-180.06 478.89,-185.83"/>
+</g>
+<!-- scores -->
+<g id="node2" class="node">
+<title>scores</title>
+<ellipse fill="none" stroke="blue" cx="439.98" cy="-306" rx="35.17" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="439.98" y="-301.8" font-family="Times,serif" font-size="14.00">scores</text>
+</g>
+<!-- y_pred -->
+<g id="node4" class="node">
+<title>y_pred</title>
+<ellipse fill="none" stroke="black" cx="311.98" cy="-234" rx="37.85" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="311.98" y="-229.8" font-family="Times,serif" font-size="14.00">y_pred</text>
+</g>
+<!-- scores&#45;&gt;y_pred -->
+<g id="edge1" class="edge">
+<title>scores-&gt;y_pred</title>
+<path fill="none" stroke="black" d="M416.5,-292.16C396.81,-281.39 368.43,-265.87 346.21,-253.72"/>
+<polygon fill="black" stroke="black" points="347.96,-250.69 337.5,-248.96 344.6,-256.83 347.96,-250.69"/>
+</g>
+<!-- scores&#45;&gt;ROC -->
+<g id="edge28" class="edge">
+<title>scores-&gt;ROC</title>
+<path fill="none" stroke="black" d="M447.81,-288.15C459.07,-263.92 479.96,-218.96 493.41,-190.05"/>
+<polygon fill="black" stroke="black" points="496.48,-191.74 497.52,-181.2 490.13,-188.79 496.48,-191.74"/>
+</g>
+<!-- threshold -->
+<g id="node3" class="node">
+<title>threshold</title>
+<ellipse fill="none" stroke="blue" cx="311.98" cy="-306" rx="46.98" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="311.98" y="-301.8" font-family="Times,serif" font-size="14.00">threshold</text>
+</g>
+<!-- threshold&#45;&gt;y_pred -->
+<g id="edge2" class="edge">
+<title>threshold-&gt;y_pred</title>
+<path fill="none" stroke="black" d="M311.98,-287.7C311.98,-280.41 311.98,-271.73 311.98,-263.54"/>
+<polygon fill="black" stroke="black" points="315.48,-263.62 311.98,-253.62 308.48,-263.62 315.48,-263.62"/>
+</g>
+<!-- y_pred&#45;&gt;TP -->
+<g id="edge7" class="edge">
+<title>y_pred-&gt;TP</title>
+<path fill="none" stroke="black" d="M305.68,-216.05C302.84,-208.4 299.41,-199.16 296.21,-190.56"/>
+<polygon fill="black" stroke="black" points="299.5,-189.36 292.74,-181.21 292.94,-191.8 299.5,-189.36"/>
+</g>
+<!-- y_pred&#45;&gt;TN -->
+<g id="edge8" class="edge">
+<title>y_pred-&gt;TN</title>
+<path fill="none" stroke="black" d="M322.88,-216.41C328.34,-208.1 335.08,-197.85 341.18,-188.56"/>
+<polygon fill="black" stroke="black" points="344.07,-190.53 346.64,-180.25 338.22,-186.69 344.07,-190.53"/>
+</g>
+<!-- y_pred&#45;&gt;FP -->
+<g id="edge9" class="edge">
+<title>y_pred-&gt;FP</title>
+<path fill="none" stroke="black" d="M291.67,-218.5C277.09,-208.08 257.28,-193.93 241.31,-182.53"/>
+<polygon fill="black" stroke="black" points="243.35,-179.68 233.18,-176.72 239.28,-185.38 243.35,-179.68"/>
+</g>
+<!-- y_pred&#45;&gt;FN -->
+<g id="edge10" class="edge">
+<title>y_pred-&gt;FN</title>
+<path fill="none" stroke="black" d="M335.01,-219.34C353.71,-208.24 380.22,-192.52 400.47,-180.5"/>
+<polygon fill="black" stroke="black" points="402.02,-183.65 408.84,-175.54 398.45,-177.63 402.02,-183.65"/>
+</g>
+<!-- TPR -->
+<g id="node5" class="node">
+<title>TPR</title>
+<ellipse fill="none" stroke="green" cx="452.98" cy="-90" rx="28.75" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="452.98" y="-85.8" font-family="Times,serif" font-size="14.00">TPR</text>
+</g>
+<!-- Recall -->
+<g id="node14" class="node">
+<title>Recall</title>
+<ellipse fill="none" stroke="black" cx="452.98" cy="-18" rx="35.7" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="452.98" y="-13.8" font-family="Times,serif" font-size="14.00">Recall</text>
+</g>
+<!-- TPR&#45;&gt;Recall -->
+<g id="edge27" class="edge">
+<title>TPR-&gt;Recall</title>
+<path fill="none" stroke="black" d="M452.98,-60.24C452.98,-56.01 452.98,-51.66 452.98,-47.44"/>
+<polygon fill="black" stroke="black" points="449.48,-60.18 452.98,-70.18 456.48,-60.18 449.48,-60.18"/>
+<polygon fill="black" stroke="black" points="456.48,-47.62 452.98,-37.62 449.48,-47.62 456.48,-47.62"/>
+</g>
+<!-- FPR -->
+<g id="node6" class="node">
+<title>FPR</title>
+<ellipse fill="none" stroke="green" cx="263.98" cy="-90" rx="28.22" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="263.98" y="-85.8" font-family="Times,serif" font-size="14.00">FPR</text>
+</g>
+<!-- TP&#45;&gt;TPR -->
+<g id="edge11" class="edge">
+<title>TP-&gt;TPR</title>
+<path fill="none" stroke="black" d="M307.18,-150.68C312.02,-148.41 317.15,-146.07 321.98,-144 362.71,-126.53 374.07,-125.06 414.98,-108 416.52,-107.36 418.09,-106.69 419.68,-106.01"/>
+<polygon fill="black" stroke="black" points="421,-109.25 428.76,-102.04 418.2,-102.84 421,-109.25"/>
+</g>
+<!-- TP&#45;&gt;FPR -->
+<g id="edge12" class="edge">
+<title>TP-&gt;FPR</title>
+<path fill="none" stroke="black" d="M280.65,-144.05C278.25,-136.4 275.34,-127.16 272.64,-118.56"/>
+<polygon fill="black" stroke="black" points="276.04,-117.72 269.71,-109.23 269.37,-119.82 276.04,-117.72"/>
+</g>
+<!-- Accuracy -->
+<g id="node11" class="node">
+<title>Accuracy</title>
+<ellipse fill="none" stroke="black" cx="357.98" cy="-90" rx="48.03" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="357.98" y="-85.8" font-family="Times,serif" font-size="14.00">Accuracy</text>
+</g>
+<!-- TP&#45;&gt;Accuracy -->
+<g id="edge13" class="edge">
+<title>TP-&gt;Accuracy</title>
+<path fill="none" stroke="black" d="M300.9,-146.5C310.19,-137.46 322.38,-125.61 333.11,-115.18"/>
+<polygon fill="black" stroke="black" points="335.5,-117.73 340.23,-108.25 330.62,-112.71 335.5,-117.73"/>
+</g>
+<!-- Precision -->
+<g id="node12" class="node">
+<title>Precision</title>
+<ellipse fill="none" stroke="black" cx="46.98" cy="-90" rx="46.98" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="46.98" y="-85.8" font-family="Times,serif" font-size="14.00">Precision</text>
+</g>
+<!-- TP&#45;&gt;Precision -->
+<g id="edge23" class="edge">
+<title>TP-&gt;Precision</title>
+<path fill="none" stroke="black" d="M264.95,-150.21C260.11,-147.97 254.93,-145.76 249.98,-144 186.58,-121.53 167.85,-125.78 102.98,-108 99.85,-107.14 96.64,-106.24 93.41,-105.31"/>
+<polygon fill="black" stroke="black" points="94.47,-101.97 83.89,-102.51 92.5,-108.69 94.47,-101.97"/>
+</g>
+<!-- TN&#45;&gt;TPR -->
+<g id="edge14" class="edge">
+<title>TN-&gt;TPR</title>
+<path fill="none" stroke="black" d="M375.4,-148.16C389.55,-137.73 409.75,-122.85 425.99,-110.89"/>
+<polygon fill="black" stroke="black" points="427.82,-113.88 433.8,-105.13 423.67,-108.25 427.82,-113.88"/>
+</g>
+<!-- TN&#45;&gt;FPR -->
+<g id="edge15" class="edge">
+<title>TN-&gt;FPR</title>
+<path fill="none" stroke="black" d="M340.3,-147.83C326.34,-137.44 306.63,-122.76 290.74,-110.93"/>
+<polygon fill="black" stroke="black" points="293.22,-108.41 283.11,-105.25 289.04,-114.03 293.22,-108.41"/>
+</g>
+<!-- TN&#45;&gt;Accuracy -->
+<g id="edge16" class="edge">
+<title>TN-&gt;Accuracy</title>
+<path fill="none" stroke="black" d="M357.98,-143.7C357.98,-136.41 357.98,-127.73 357.98,-119.54"/>
+<polygon fill="black" stroke="black" points="361.48,-119.62 357.98,-109.62 354.48,-119.62 361.48,-119.62"/>
+</g>
+<!-- Specificity -->
+<g id="node13" class="node">
+<title>Specificity</title>
+<ellipse fill="none" stroke="black" cx="164.98" cy="-90" rx="52.87" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="164.98" y="-85.8" font-family="Times,serif" font-size="14.00">Specificity</text>
+</g>
+<!-- TN&#45;&gt;Specificity -->
+<g id="edge25" class="edge">
+<title>TN-&gt;Specificity</title>
+<path fill="none" stroke="black" d="M336.84,-150.52C332,-148.26 326.85,-145.96 321.98,-144 286.42,-129.66 245.33,-115.88 214.1,-105.97"/>
+<polygon fill="black" stroke="black" points="215.53,-102.75 204.94,-103.09 213.43,-109.43 215.53,-102.75"/>
+</g>
+<!-- FP&#45;&gt;TPR -->
+<g id="edge17" class="edge">
+<title>FP-&gt;TPR</title>
+<path fill="none" stroke="black" d="M234.97,-150.12C239.81,-147.88 245,-145.69 249.98,-144 321.03,-119.82 343.68,-131.45 414.98,-108 416.77,-107.41 418.59,-106.76 420.42,-106.08"/>
+<polygon fill="black" stroke="black" points="421.44,-109.44 429.37,-102.42 418.79,-102.96 421.44,-109.44"/>
+</g>
+<!-- FP&#45;&gt;FPR -->
+<g id="edge18" class="edge">
+<title>FP-&gt;FPR</title>
+<path fill="none" stroke="black" d="M225.07,-145.46C231.29,-136.76 239.18,-125.71 246.23,-115.84"/>
+<polygon fill="black" stroke="black" points="249.07,-117.9 252.03,-107.72 243.37,-113.83 249.07,-117.9"/>
+</g>
+<!-- FP&#45;&gt;Accuracy -->
+<g id="edge19" class="edge">
+<title>FP-&gt;Accuracy</title>
+<path fill="none" stroke="black" d="M235.53,-150.52C257.63,-139.78 292.46,-122.85 319.34,-109.78"/>
+<polygon fill="black" stroke="black" points="320.74,-112.99 328.21,-105.47 317.68,-106.7 320.74,-112.99"/>
+</g>
+<!-- FP&#45;&gt;Precision -->
+<g id="edge24" class="edge">
+<title>FP-&gt;Precision</title>
+<path fill="none" stroke="black" d="M191.45,-151.56C165.14,-140.53 121.05,-122.05 88.49,-108.4"/>
+<polygon fill="black" stroke="black" points="89.9,-105.2 79.32,-104.56 87.19,-111.65 89.9,-105.2"/>
+</g>
+<!-- FP&#45;&gt;Specificity -->
+<g id="edge26" class="edge">
+<title>FP-&gt;Specificity</title>
+<path fill="none" stroke="black" d="M202.86,-145.12C197.07,-136.85 189.85,-126.54 183.27,-117.14"/>
+<polygon fill="black" stroke="black" points="186.2,-115.22 177.6,-109.04 180.47,-119.24 186.2,-115.22"/>
+</g>
+<!-- FN&#45;&gt;TPR -->
+<g id="edge20" class="edge">
+<title>FN-&gt;TPR</title>
+<path fill="none" stroke="black" d="M435.54,-144.05C438.06,-136.4 441.09,-127.16 443.92,-118.56"/>
+<polygon fill="black" stroke="black" points="447.19,-119.82 446.99,-109.23 440.54,-117.63 447.19,-119.82"/>
+</g>
+<!-- FN&#45;&gt;FPR -->
+<g id="edge21" class="edge">
+<title>FN-&gt;FPR</title>
+<path fill="none" stroke="black" d="M408.77,-150.68C403.94,-148.41 398.8,-146.07 393.98,-144 353.24,-126.53 341.8,-125.26 300.98,-108 299.47,-107.36 297.94,-106.7 296.39,-106.03"/>
+<polygon fill="black" stroke="black" points="298.12,-102.97 287.57,-102.09 295.27,-109.36 298.12,-102.97"/>
+</g>
+<!-- FN&#45;&gt;Accuracy -->
+<g id="edge22" class="edge">
+<title>FN-&gt;Accuracy</title>
+<path fill="none" stroke="black" d="M415.06,-146.5C405.76,-137.46 393.57,-125.61 382.84,-115.18"/>
+<polygon fill="black" stroke="black" points="385.33,-112.71 375.72,-108.25 380.45,-117.73 385.33,-112.71"/>
+</g>
+<!-- AUC -->
+<g id="node16" class="node">
+<title>AUC</title>
+<ellipse fill="none" stroke="black" cx="530.98" cy="-90" rx="31.43" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="530.98" y="-85.8" font-family="Times,serif" font-size="14.00">AUC</text>
+</g>
+<!-- ROC&#45;&gt;AUC -->
+<g id="edge30" class="edge">
+<title>ROC-&gt;AUC</title>
+<path fill="none" stroke="black" d="M512.03,-144.05C514.76,-136.4 518.06,-127.16 521.14,-118.56"/>
+<polygon fill="black" stroke="black" points="524.4,-119.81 524.47,-109.21 517.81,-117.45 524.4,-119.81"/>
+</g>
+</g>
+</svg>
