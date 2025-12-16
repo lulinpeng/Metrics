@@ -13,7 +13,7 @@ Measures how badly one probability distribution approximates another.
 
 Note that the KL divergence is **asymmetric**: $\mathtt{KL}(Y,X)$ is generally not equal to $\mathtt{KL}(X,Y)$.
 
-## Jerrreys Divergence
+## Jeffreys Divergence
 
 $$\mathtt{J}(Y,X) = \mathtt{KL}(Y, X) + \mathtt{KL}(X,Y)$$
 
@@ -40,6 +40,7 @@ Cross entropy measures the average number of bits needed to represent events fro
 
 ## Conditional Entropy
 $$\mathtt{H}(Y|X) = \sum \Pr[X=x] \mathtt{H}(Y|X=x)$$
+
 The remaining uncertainty after you know something.
 
 # Feature & Label
