@@ -13,7 +13,7 @@ Measures how badly one probability distribution approximates another.
 
 Note that the KL divergence is **asymmetric**: $\mathtt{KL}(Y,X)$ is generally not equal to $\mathtt{KL}(X,Y)$.
 
-## Jerrreys Divergence
+## Jeffreys Divergence
 
 $$\mathtt{J}(Y,X) = \mathtt{KL}(Y, X) + \mathtt{KL}(X,Y)$$
 
@@ -40,6 +40,7 @@ Cross entropy measures the average number of bits needed to represent events fro
 
 ## Conditional Entropy
 $$\mathtt{H}(Y|X) = \sum \Pr[X=x] \mathtt{H}(Y|X=x)$$
+
 The remaining uncertainty after you know something.
 
 # Feature & Label
@@ -96,26 +97,48 @@ $\mathtt{IV}(X,Y)$, i.e., $\mathtt{J}(X_0,X_1)$, quantifies **how well feature $
 
 ## Confusion Matrix
 
+| Actual \ Predicted | Predicted Positive | Predicted Negative |
+|--------------------|---------------------|---------------------|
+| Actual Positive    | TP                  | FN                  |
+| Actual Negative    | FP                  | TN                  |
+
 ### TP/TN/FP/FN
-True Positive / True Negative / False Positive / False Negative
+
+$TP$ (True Positive) is the number of $Positive \overset{predict}\longrightarrow Positive$.
+
+$TN$ (True Negative) is the number of $Negative  \overset{predict}\longrightarrow Negative$.
+
+$FP$ (False Positive) is the number of $Negative \overset{predict}\longrightarrow Positive$.
+
+$FN$ (False Negative) is the number of $Positive \overset{predict}\longrightarrow Negative$.
+
+### TPR/FPR
+
+$$TPR=\frac{TP}{TP+FN}\ , \ \ \ FPR=\frac{FP}{FP+TN}$$
+
 ### Accuracy/Precision/Recall/Specificity/F1-Score
 
-Accuracy = (TP+TN)/(P+N)
 
-Precision = TP/(TP+FP)
+$$Accuracy = \frac{TP+TN}{P+N}\ , \ \ \ Precision = \frac{TP}{TP+FP}$$
 
-Recall = TP/(TP+FN)
+$$Recall = \frac{TP}{TP+FN}\ , \ \ \ Specificity = \frac{TN}{TN+FP}$$
 
-Specificity = TN/(TN+FP)
-
-F1-Score = 2 * (Precision * Recall) / (Precision + Recall)
+$$F1Score = \frac{2 * (Precision * Recall)}{Precision + Recall}$$
 
 ## ROC
 ROC (Receiver Operating Characteristic Curve) is defined as the set of points of **FPR and TPR pairs** obtained by varying the classification threshold.
 
-> threshold + Score → $\hat Y$
+> threshold + scores → $\hat Y$ : Assign predicted labels by thresholding: $1$ if the score > threshold, otherwise $0$.
 >
 > $Y$ + $\hat Y$ → FPR, TPR
 
 ## AUC
 AUC is the area under the ROC curve.
+
+## KS
+
+$$KS = \max (TPR-FPR)$$
+
+The KS (Kolmogorov-Smirnov) statistic measures a model's ranking ability in binary classification by calculating the maximum distance between the cumulative distribution curves of the positive and negative classes.
+
+Model's ranking ability: its power to correctly order items or individuals based on their predicted probability or score, typically from highest to lowest risk or relevance. In practical terms, this means the model can effectively separate "positive" (e.g., defaulting customers) and "negative" (e.g., good customers) cases so that most positive cases receive higher scores than negative ones.

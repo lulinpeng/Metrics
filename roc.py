@@ -47,8 +47,9 @@ def auc(roc_curve:list):
     areas = []
     for i in range(1, len(roc_curve)):
         b = roc_curve[i]
-        area = (b[0]-a[0]) * abs(b[1]-a[1]) / 2
+        area = (b[0]-a[0]) * abs(b[1]+a[1]) / 2
         areas.append(area)
+        a = b
     return sum(areas)
 
 if __name__ == '__main__':
@@ -89,3 +90,15 @@ if __name__ == '__main__':
     print(f'auc: {auc_value}')
 
     # AUC, Area Under the Curve
+
+    # simulation
+    import matplotlib.pyplot as plt
+    import random
+    scores = [round(random.random(), 3) for i in range(1000)]
+    y_true = [(POSITIVE if random.random() > 0.3 else NEGATIVE) if score > 0.5 else (NEGATIVE if random.random() > 0.2 else POSITIVE) for score in scores]
+    roc_curve = roc(y_true, scores)
+    print(roc_curve)
+    plt.plot([t[0] for t in roc_curve], [t[1] for t in roc_curve])
+    auc_value = auc(roc_curve)
+    print(f'auc: {auc_value}')
+    plt.show()

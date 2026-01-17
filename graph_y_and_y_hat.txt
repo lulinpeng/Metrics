@@ -1,4 +1,4 @@
-digraph G {
+graph_y_and_y_hat.txtdigraph G {
     
 "y_true", "scores", "threshold" [color=blue];
 
@@ -15,4 +15,8 @@ digraph G {
 "TPR" -> "Recall" [dir=both];
 
 "scores", "y_true" -> "ROC" -> "AUC";
+
+"TPR", "FPR" -> "KS";
+
+"Precision", "Recall" -> "F1 Score";
 }
